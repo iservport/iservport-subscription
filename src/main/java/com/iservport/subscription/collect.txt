@@ -1,0 +1,101 @@
+## Dados do sacado -> nosso sacado é o entity.
+id_sacado_sac, = entity.id
+st_nomeref_sac, xxx
+st_nome_sac, xxx
+st_sincro_sac, xxx
+dt_desativacao_sac, xxx
+nm_anocartaovencimento_sac, xxx
+nm_mescartaovencimento_sac, xxx
+nm_cartao_sac, xxx
+st_telefone_sac, xxx
+st_email_sac, xxx
+st_cep_sac, xxx
+fl_pagamentopref_sac, xxx
+
+id_recebimento_recb, = id
+dt_vencimento_recb, = nextCheckDate
+id_empresa_emp, xxx
+dt_recebimento_recb, = collectDate
+fl_status_recb, = resolution
+st_observacao_recb, remarks
+
+vl_total_recb, collectedValue
+vl_emitido_recb, collectFaceValue
+
+dt_cancelamento_recb, = collectCancelDate
+dt_geracao_recb, = issueDate
+st_md5_recb, collectMD5
+dt_impressao_recb, printDate
+dt_alteracao_sincro,
+st_nossonumero_recb, = collectCode
+
+vl_txmulta_recb, collectPenaltyFine
+vl_txjuros_recb, collectPenaltyTax
+fl_proratadia_recb,
+fl_composicao_recb,
+dt_acordo_recb, collectAgreedDate
+
+nm_remessa_recb,
+fl_remessastatus_recb,
+tx_remessamsg_recb,
+
+fl_importacao_recb,
+id_nota_not,
+st_instrucoes_recb,
+fl_online_recb,
+id_conta_cb,
+id_online_recb,
+nm_impressoes_recb,
+
+id_formapagamento_recb,
+st_observacaointerna_recb,
+fl_nossonumerofixo_recb,
+st_documentoex_recb,
+dt_liquidacao_recb,
+fl_cartao_recb,
+tx_cartaomensagem_recb,
+fl_protestado_recb,
+st_label_recb,
+vl_txdesconto_recb,
+st_nf_recb,
+st_observacaoexterna_recb,
+st_cielotid_recb,
+fl_cieloforcarpagamento_recb,
+dt_cieloultimatentativa_recb,
+id_cheque_pre,
+id_fechamento_cfe,
+id_usuario_usu,
+st_maquina_recb,
+id_transacao_ctr,
+id_contaoriginal_cb,
+id_bandeira_ban,
+dt_competencia_recb,
+dt_previsaocredito_recb,
+id_admcartoes_adc,
+dt_fechamento_cfe,
+st_label2_recb,
+
+fl_primeiranotificacao_recb,
+fl_segundanotificacao_recb,
+fl_terceiranotificacao_recb,
+fl_acordofrentedecaixa_recb,
+nm_visto_recb,
+st_numeroautorizacao_recb,
+id_lote_recb,
+id_contrato_mens,
+id_filial_fil,
+st_label3_recb,
+fl_primeiranotificacaosms_recb,
+fl_segundanotificacaosms_recb,
+fl_primeiranotificacaocart_recb,
+fl_segundanotificacaocarta_recb,
+st_cartaodetalhes_recb,
+fl_temcomissao_recb,
+id_forma_frecb,
+st_label_mens,
+ar_nomeformas_calc,
+st_descricao_cb,
+nome_formatado,
+publickey,
+link_2via,
+comconfirmacaoleitura
